@@ -8,7 +8,7 @@ services:
       - 8332:3000
     volumes:
       - type: bind
-        source: /home/shaddar/Documents/workspace/personal/nextjs-blog/run/data/
+        source: YOUR-CURRENT-LOCATION/data/
         target: /var/app/data/
 
 
