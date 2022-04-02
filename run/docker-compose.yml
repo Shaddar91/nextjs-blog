@@ -8,6 +8,13 @@ services:
       - 8332:3000
     volumes:
       - type: bind
-        source: ~/Documents/workspace/personal/nextjs-blog/run
+        source: /home/shaddar/Documents/workspace/personal/nextjs-blog/run/data/
         target: /var/app/data/
+
+
+# volumes:
+#   blog_data:
+#     driver: local
+#     o: bind
+#     device:
 
